@@ -1,0 +1,70 @@
+.sign-in{
+    margin-top: 90px;
+    padding: 30px 0px 5px 0px;
+    background-color: gainsboro;
+}
+
+.signcard{
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin: 0px 8px;
+    display: flex;
+    height: 527px;
+}
+
+.image img{
+    border-radius: 10px 0px 0px 10px;
+    bottom: 2px;
+}
+.number-check{
+    width: 100%;
+}
+.number-check>div{
+    width: fit-content;
+    padding-left: 150px;
+    padding-top: 80px;
+    z-index: 0;
+}
+.number-check>div>p{
+    color: rgb(145, 145, 145);
+    font-weight: 600;
+    padding-bottom: 50px;
+}
+#phone-number{
+    border: 1px solid rgba(0,0,0,.04);
+    padding: 12px 150px 12px 10px ;
+    position: absolute;
+}
+#phone-number span{
+    position: relative;
+    left: 10px;
+} 
+#phone{
+    border:none;
+    background-color: aliceblue;
+    font-size: 16px;
+    font-weight:500;
+}
+#phone:focus{
+   outline: none;
+   background-color:aliceblue;
+}
+
+#submit{
+    transform: translate(160px ,100px);
+    padding: 17px 21px;
+    border-radius: 50%;
+    border: none;
+    background-color: #007bff;
+    color: azure;
+}
+.sign-in>p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 14px;
+}
+.sign-in>p a{
+    text-decoration: none;
+    color: red;
+    font-weight: 400;
+}
