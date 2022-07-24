@@ -3,5 +3,12 @@ document.getElementById("Logo").addEventListener("click",function(){
 })
 
 
-// let username=JSON.parse(localStorage.getItem(""))
-// document.getElementById("usericon").className="fa-regular fa-circle-user"   
+let username=localStorage.getItem("jioname")
+console.log(username)
+if(username.length>0){
+    document.getElementById("usericon").className="fa-regular fa-circle-user"   
+    document.getElementById("logdata").innerText=username
+}
+localStorage.setItem("jioname","")
+
+    
