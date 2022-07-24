@@ -26,7 +26,6 @@ function createdata(event){
         obj["Pass"]=p1
         
     dataarr.push(obj)
-    console.log(dataarr)
     localStorage.setItem("jiodata",JSON.stringify(dataarr))
     // localStorage.clear()
     localStorage.setItem("jioname",form.fname.value,)

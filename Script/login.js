@@ -9,11 +9,10 @@ document.getElementById("change").addEventListener("click",function(){
 function checkpassword(){
     event.preventDefault();
     let Pass=document.getElementById("pass").value
-    console.log(Pass)
     dataarr.forEach(function(ele ,index) {
         if(Pass==ele.Pass&&currentno==ele.phone){
             window.location.href="index.html"
-            localStorage.setItem("jioname",JSON.stringify(ele.fname))
+            localStorage.setItem("jioname",ele.fname)
         }else{
             alert("Wrong Password")
         }
